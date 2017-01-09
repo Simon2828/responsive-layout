@@ -1,0 +1,248 @@
+.product {
+    background: #CB012A;
+    margin-right: -30px;
+    margin-left: -30px;
+}
+
+.product-title {
+    color: white;
+    margin-left: 4rem;
+}
+
+.layout-line {
+    width: 9.2rem;
+    border-bottom: solid white 1px;
+}
+
+.product-title h1 {
+    text-transform: uppercase;
+}
+
+.product-title {
+    max-width: 30rem;
+}
+
+.product-title p:first-of-type {
+    margin-top: 2rem;
+}
+
+.carousel .slide .article-slide .col-sm-8 {
+    height: 38vh;
+}
+
+.carousel-control.right   {
+    right: 15px;
+}
+
+.carousel-control .icon-next {
+    margin-right: -30px;
+}
+
+.carousel-image {
+    display: none;
+}
+
+.page-layout_text {
+    margin-left: 1rem;
+}
+
+.page-layout h4 {
+    text-transform: uppercase;
+}
+
+button {
+    background: linear-gradient(#B60923, #F34666);
+    color: white;
+    width: 140px;
+    border: 1px solid #B60923;
+}
+
+button::after {
+    position: absolute;
+    content: "";
+    top: 218px;
+    left: 136px;
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid white;
+}
+
+.product-title div::after {
+    position: absolute;
+    content: "";
+    top: 264px;
+    left: 94px;
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid white;
+}
+
+.page-layout {
+    background: #E2E2E2;
+    margin: 0 auto;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.icon-next {
+    margin-right: 5px;
+}
+
+@media (min-width: 768px) {
+    .product-title {
+        margin-left: 0;
+    }
+
+    .page-layout {
+        padding-bottom: 27rem;
+    }
+
+    .page-layout_block {
+        top: 3rem;
+        height: 180px;
+        width: 300px;
+        background: #6A6A6A;
+        border: solid 4px white;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .page-layout_text {
+        width: 53%;
+    }
+
+    .carousel-inner>.item>img {
+        height: 289px;
+    }
+
+    button::after {
+        position: absolute;
+        content: "";
+        top: 228px;
+        left: 136px;
+        width: 0;
+        height: 0;
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        border-left: 5px solid white;
+    }
+
+    .icon-next {
+        margin-left: 5px;
+    }
+}
+
+@media (min-width: 952px) {
+    button:after {
+        position: absolute;
+        content: "";
+        top: 187px;
+        left: 136px;
+        width: 0;
+        height: 0;
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        border-left: 5px solid white;
+    }
+}
+
+@media (min-width: 994px) {
+    .carousel-image {
+        display: block;
+    }
+
+    .carousel-inner>.item>img {
+        height: auto;
+    }
+
+    /* Indicators list style */
+    .article-slide .carousel-indicators {
+        position: absolute;
+        top: 300px;
+        width: 100%;
+    }
+    /* Indicators list style */
+    .article-slide .carousel-indicators li {
+        border: medium none;
+        border-radius: 0;
+        height: 108px;
+        margin-left: -1px;
+        margin-top: 0;
+        width: 174px;
+    }
+    /* Indicators images style */
+    .article-slide .carousel-indicators img {
+        border-top: 5px solid #CBCBCB;
+        border-bottom: 5px solid #CBCBCB;
+        border-right: 2px solid #CBCBCB;
+        border-left: none;
+        height: 108px;
+        left: 0;
+        width: 174px;
+    }
+
+    .article-slide .carousel-indicators .first-image {
+        border-left: 5px solid #CBCBCB;
+    }
+
+    .article-slide .carousel-indicators .last-image {
+        border-right: 5px solid #CBCBCB;
+    }
+    /* Indicators active image style */
+    .article-slide .carousel-indicators .active img {
+        border: 5px solid #3D3D3D;
+    }
+
+    .carousel-indicators .active::before {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom: 10px solid #3D3D3D;
+        margin-left: -10px;
+        bottom: -3px;
+    }
+
+    button::after {
+        position: absolute;
+        content: "";
+        top: 188px;
+        left: 136px;
+        width: 0;
+        height: 0;
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        border-left: 5px solid white;
+    }
+
+    .page-layout {
+        padding-top: 12rem;
+        padding-bottom: 34rem;
+    }
+
+    .page-layout_block {
+        top: 0;
+        height: 216px;
+        width: 400px;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    .article-slide .carousel-indicators {
+        position: absolute;
+        top: 340px;
+        width: 100%;
+    }
+}
